@@ -14,12 +14,12 @@ import java.util.ArrayList;
 
 class problem_1 {
     public static void main(String[] args){
+
         Integer i = 1;
         ArrayList<Integer> arr = new ArrayList<Integer>();
 
         for(i = 0; i<=1000; i++){ if(i % 3 == 0 || i % 5 == 0 ){ arr.add(i); } }        
-
-        System.out.println(arr);
+        
     }
 
 }
